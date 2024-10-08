@@ -742,8 +742,8 @@ import:
     -
     -
   script:
-    # - <script src="xxx.js"></script>
-    -
+    - <script> window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+    - <script defer src="/_vercel/insights/script.js"></script>
     -
 
 # 文章图片,不指定 img:xxx 的时候随机取下面的图片
