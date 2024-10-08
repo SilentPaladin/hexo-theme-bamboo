@@ -20,9 +20,18 @@ menu:
   更多: # 这是二级菜单的写法
     icon: fa-solid fa-link
     children:
-      - name: 谷歌
-        url: https://www.google.com
-        icon: fa-brands fa-google
+      - name: Pixaba素材库
+        url: https://pixabay.com/zh/#:~:text=Pixaba
+        icon: fa-regular fa-image
+      - name: Unsplash素材库
+        url: https://unsplash.com/
+        icon: fa-regular fa-image
+      - name: SMMS图床
+        url: https://smms.app/home/
+        icon: fa-regular fa-image
+      - name: Fontawesome图标
+        url: https://fontawesome.com/icons
+        icon: "fa-solid fa-icons"
 
 # github地址, 头部导航右上角的github链接
 Github:
